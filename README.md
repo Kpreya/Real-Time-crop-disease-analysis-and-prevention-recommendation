@@ -6,7 +6,7 @@ A cutting-edge AI-driven platform for real-time crop disease analysis and preven
 
 Our solution addresses the critical challenge of **$36 billion annual agricultural losses** due to pest and disease infestations in India, providing farmers with intelligent, accessible, and actionable insights for crop protection.
 
-## 🎯 Key Features
+## 🎯 Key Features We intend to implement
 
 ### Core Capabilities
 - **Real-time Disease Detection**: 97-99% accuracy using advanced CNN architectures
@@ -21,11 +21,6 @@ Our solution addresses the critical challenge of **$36 billion annual agricultur
 - **SMS Fallback**: Ensuring connectivity in areas with limited internet
 - **Voice Commands**: Audio-based interaction for improved accessibility
 
-### Government Integration
-- **NPSS Integration**: Seamless connection with National Pest Surveillance System
-- **AgriStack Compatibility**: Full integration with India's agricultural digital infrastructure
-- **Aadhaar Authentication**: Farmer verification and personalized advisory services
-- **Scheme Integration**: Automatic eligibility verification for government agricultural programs
 
 ## 🛠️ Technology Stack
 
@@ -73,15 +68,7 @@ Our solution addresses the critical challenge of **$36 billion annual agricultur
 4. **ITC (Image-Text Converter)**: Reconstructs fine-grained details for complex backgrounds
 5. **PTI (Pest Target Identification)**: YOLOv4-based detection and classification
 
-## 📊 Performance Metrics
 
-| Metric | Current Solutions | Our Implementation | Improvement |
-|--------|------------------|-------------------|-------------|
-| Detection Accuracy | 85-95% | 97-99% | +12% |
-| Language Support | 3-8 languages | 22+ languages | +300% |
-| Response Time | 5-10 seconds | <5 seconds | 50% faster |
-| Cost Reduction | 15-25% | 40-50% | 2x improvement |
-| Environmental Impact | Baseline | 50-60% reduction | Significant |
 
 ## 🚀 Getting Started
 
@@ -289,9 +276,6 @@ python tests/model/validate_accuracy.py --dataset IP102
 - Model performance trends
 - Resource optimization impact
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Development Setup
 1. Fork the repository
@@ -310,7 +294,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 📋 Roadmap
 
-### Phase 1 (Completed)
+### Phase 1 (In Progress)
 - ✅ Core MSFNet-CPD implementation
 - ✅ Multi-modal dataset creation
 - ✅ Basic WhatsApp integration
@@ -319,30 +303,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### Phase 2 (In Progress)
 - 🔄 Advanced RL optimization
 - 🔄 Enhanced multilingual support
-- 🔄 Real-time IoT integration
-- 🔄 Mobile application development
-
-### Phase 3 (Planned)
-- 📅 Drone surveillance integration
-- 📅 Satellite imagery analysis
-- 📅 Blockchain traceability
-- 📅 International expansion
-
-## 💰 Investment & Impact
-
-### Development Investment: $19,300
-- Dataset Preparation: $4,500 (23.3%)
-- Core Implementation: $6,000 (31.1%)
-- Integration & API: $3,200 (16.6%)
-- Deployment & Testing: $2,800 (14.5%)
-- Documentation & Training: $2,800 (14.5%)
-
-### Expected ROI
-- **Year 1**: $500M economic impact
-- **Farmer Reach**: 500,000+ farmers
-- **Cost Savings**: 40-50% pesticide reduction
-- **Yield Improvement**: 25-35% productivity increase
-
+ 
 ## 🔒 Security & Compliance
 
 ### Data Protection
@@ -367,7 +328,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Government Partners**: NPSS, AgriStack, Digital Agriculture Mission
 - **Research Institutions**: ICRISAT, Indian Agricultural Research Institute
 - **Technology Partners**: TensorFlow, Stable-Baselines3, IndicTrans2 teams
-
-
 
 *Transforming agriculture through intelligent technology*
